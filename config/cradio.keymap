@@ -20,6 +20,7 @@
 	        label = "->";
 	        compatible = "zmk,behavior-macro";
 	        #binding-cells = <0>;
+	        wait-ms = <1>;
 	        bindings = <&macro_tap &kp MINUS &kp GT>;
 	    };
 
@@ -27,6 +28,7 @@
 	        label = "=>";
 	        compatible = "zmk,behavior-macro";
 	        #binding-cells = <0>;
+	        wait-ms = <1>;
 	        bindings = <&macro_tap &kp EQUAL &kp GT>;
 	    };
 	};
