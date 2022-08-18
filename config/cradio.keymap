@@ -58,9 +58,9 @@
 
         symbols_layer {
             bindings = <
-                &kp LC(LS(ESC)) &kp PLUS &kp LBRC &kp RBRC &kp LS(F10)   &kp LC(LS(F)) &kp C_VOL_UP  &kp C_VOL_DN &kp C_MUTE &none 
+                &kp LC(LS(ESC)) &kp PLUS &kp LBRC &kp RBRC &kp LS(F10)   &kp LC(LS(F)) &kp C_VOL_UP  &kp C_VOL_DN &kp C_MUTE &kp UP 
                           &kp LT &kp UNDER &kp LPAR &kp RPAR &kp GRAVE   &kp COLON &kp LSHFT &kp LALT &kp LGUI &kp LCTRL
-                      &kp GT &kp PAUSE_BREAK &kp LBKT &kp RBKT &kp DQT   &none &none  &none &m_dptr &none
+                      &kp GT &kp PAUSE_BREAK &kp LBKT &kp RBKT &kp DQT   &kp LEFT &kp RIGHT &kp ENTER &m_dptr &kp DOWN
                                                   &mo LA_FUN &kp ENTER   &trans &trans
             >;
         };
