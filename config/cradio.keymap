@@ -52,8 +52,8 @@
        numerical_layer {
             bindings = <
                             &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCT   &kp N1 &kp N2 &kp N3 &kp N4 &kp N5
-                       &kp LCTRL &kp LGUI &kp LALT &kp LSHFT &kp ENTER   &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-                        &none &kp STAR &kp LC(INS) &kp LS(INS) &kp SPC   &kp CARET &kp AMPS &kp CMMA &kp DOT &kp SLASH
+                        &kp LCTRL &kp LGUI &kp LALT &kp LSHFT &kp RALT   &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
+                    &kp ENTER &kp STAR &kp LC(INS) &kp LS(INS) &kp SPC   &kp CARET &kp AMPS &kp CMMA &kp DOT &kp SLASH
                                                          &trans &trans   &mo LA_FUN &trans
             >;
         };
@@ -61,7 +61,7 @@
         symbols_layer {
             bindings = <
                 &kp LC(LS(ESC)) &kp PLUS &kp LBRC &kp RBRC &kp LS(F10)   &kp LC(LS(F)) &kp C_VOL_UP  &kp C_VOL_DN &tog LA_GM1 &kp UP 
-                          &kp LT &kp UNDER &kp LPAR &kp RPAR &kp GRAVE   &kp COLON &kp LSHFT &kp LALT &kp LGUI &kp LCTRL
+                          &kp LT &kp UNDER &kp LPAR &kp RPAR &kp GRAVE   &kp RALT &kp LSHFT &kp LALT &kp LGUI &kp LCTRL
                       &kp GT &kp PAUSE_BREAK &kp LBKT &kp RBKT &kp DQT   &kp LEFT &kp RIGHT &kp ENTER &m_dptr &kp DOWN
                                                   &mo LA_FUN &kp ENTER   &trans &trans
             >;
